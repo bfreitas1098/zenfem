@@ -1,44 +1,39 @@
-// src/LoginForm.js
 import React, { useState } from "react";
 
-function LoginForm() {
+const Login = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleLogin = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
     // Handle login logic here
-    console.log("Username:", username);
-    console.log("Password:", password);
+    console.log("Username:", username, "Password:", password);
   };
 
   return (
-    <div className="login-form">
+    <div>
       <h2>Login</h2>
-      <form>
-        <div className="form-group">
-          <label htmlFor="username">Username</label>
+      <form onSubmit={handleSubmit}>
+        <div>
+          <label>Username: </label>
           <input
             type="text"
-            id="username"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
           />
         </div>
-        <div className="form-group">
-          <label htmlFor="password">Password</label>
+        <div>
+          <label>Password: </label>
           <input
             type="password"
-            id="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
         </div>
-        <button type="button" onClick={handleLogin}>
-          Login
-        </button>
+        <button type="submit">Login</button>
       </form>
     </div>
   );
-}
+};
 
-export default LoginForm;
+export default Login;
