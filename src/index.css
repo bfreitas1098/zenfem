@@ -10,6 +10,11 @@
   src: url(./fonts/Fontspring-DEMO-theseasons-reg.otf);
 }
 
+@font-face {
+  font-family: "The Seasons Italic";
+  src: url(./fonts/Fontspring-DEMO-theseasons-ltit.otf);
+}
+
 :root {
   --primary-100: #326298;
   --primary-200: #809ec8;
@@ -37,4 +42,10 @@
   --body-size-md: 1.2rem;
   --body-size-sm: 0.9rem;
   --line-height: 150%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }

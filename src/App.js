@@ -1,13 +1,12 @@
 import "./App.css";
 import React from "react";
-import Login from "./pages/Login";
-import HomePage from "./HomePage";
+// import Login from "./pages/Login";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <div className="App">
-      <h1>ZenFem</h1>
-      <Login />
+      {/* <Login /> */}
       <HomePage />
     </div>
   );

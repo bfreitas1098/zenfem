@@ -1,0 +1,61 @@
+* {
+  font-size: 62.5%;
+}
+
+header {
+  width: 100vw;
+  height: 6.4rem;
+  padding: 0 8rem;
+  background-color: var(--primary-300);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-img {
+  width: 5rem;
+  height: 3rem;
+}
+
+.logo h4 {
+  font-family: "The Seasons Italic";
+  font-size: 2.1rem;
+  color: var(--neutrals-100);
+  font-weight: 100;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.7rem;
+}
+
+.btns button {
+  width: 3.2rem;
+  height: 3.2rem;
+  background-color: transparent;
+  border-radius: 50%;
+  border: solid 1px var(--neutrals-300);
+}
+
+.btns button:hover,
+.btns button:active {
+  border-color: var(--neutrals-700);
+}
+
+.btns button a:link,
+.btns button a:visited {
+  color: #374957;
+}
+
+.btn--icon {
+  width: 1.6rem;
+  height: 1.6rem;
+}
