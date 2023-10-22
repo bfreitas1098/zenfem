@@ -1,0 +1,84 @@
+.profile--page {
+  background-color: var(--primary-500);
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2.4rem;
+}
+
+.profile-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.6rem;
+  height: 50vw;
+}
+
+.btns-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 54.1rem;
+  margin-top: 3.2rem;
+}
+
+.icon--sign-out,
+.icon--create-goal,
+.icon--edit-goal {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.btn--sign-out,
+.btn--create-goal,
+.btn--edit-goal {
+  color: var(--neutrals-400);
+  font-size: var(--body-size-md);
+  font-family: var(--body-ff);
+  border-radius: 1.2rem;
+  border: solid 1px var(--neutrals-200);
+  padding: 4px 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  background-color: transparent;
+  opacity: 80%;
+}
+
+.goal-btns {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.tabs-container {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  transform: translateY(6px);
+}
+
+.tab {
+  color: var(--neutrals-100);
+  font-size: var(--body-size-lg);
+  font-family: var(--body-ff);
+  padding-bottom: 5px;
+  border-bottom: solid 1.5px transparent;
+}
+
+.active {
+  border-bottom: solid 1.5px var(--neutrals-100);
+}
+
+.goals-container {
+  margin: 1.6rem 8rem 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 8px;
+  row-gap: 1.6rem;
+}

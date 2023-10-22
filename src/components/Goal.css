@@ -1,0 +1,102 @@
+.goal--container {
+  background-color: var(--neutrals-800);
+  border: solid 1px var(--neutrals-700);
+  border-radius: 1.2rem;
+  padding: 1.2rem 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.goal--img {
+  width: 12.5rem;
+  height: 12rem;
+  object-fit: cover;
+}
+
+.goal--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2.2rem;
+  width: fit-content;
+}
+
+.goal--description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+  width: 30.4rem;
+}
+
+h6 {
+  color: var(--neutrals-100);
+  font-size: var(--h6-size);
+}
+
+.goal--information {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+}
+
+.goal-date,
+.goal-location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.goal--information span {
+  color: var(--neutrals-400);
+  font-family: var(--body-ff);
+  font-size: var(--body-size-sm);
+}
+
+.icon--calendar,
+.icon--location {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.goal--bottom {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 6rem;
+}
+
+.goal--users {
+  color: var(--neutrals-100);
+  font-size: var(--body-size-md);
+}
+
+.btn--complete-goal {
+  background-color: var(--primary-100);
+  border-radius: 1.2rem;
+  border: solid 1px var(--neutrals-600);
+  padding: 4px 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  color: var(--neutrals-800);
+  font-family: var(--body-ff);
+  font-size: var(--body-size-md);
+}
+
+.btn--complete-goal:hover,
+.btn--complete-goal:active {
+  background-color: #264a73;
+}
+
+.icon--checkmark {
+  width: 1.6rem;
+  height: 1.6rem;
+}

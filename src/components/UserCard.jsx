@@ -1,6 +1,8 @@
 import "./UserCard.css";
 import add from "../images/add.svg";
 
+import InterestBtns from "./InterestBtns";
+
 const UserCard = (props) => {
   return (
     <div className="user-card">
@@ -25,9 +27,9 @@ const UserCard = (props) => {
       <div className="interests-container">
         <h6>Interests</h6>
         <div className="interests-btns">
-          <button className="interest">Sports</button>
-          <button className="interest">Nature</button>
-          <button className="interest">Knitting</button>
+          <InterestBtns interest={"Sports"} />
+          <InterestBtns interest={"Nature"} />
+          <InterestBtns interest={"Knitting"} />
         </div>
       </div>
       <div className="goal-container">

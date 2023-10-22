@@ -14,7 +14,6 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 2.2rem;
 }
 
 .bio-container {
@@ -67,8 +66,6 @@
 .btn--connect {
   color: var(--neutrals-800);
   background-color: var(--primary-200);
-  width: 8.8rem;
-  height: 2.6rem;
   border-radius: 1.2rem;
   border: solid 1px var(--neutrals-600);
   display: flex;
@@ -106,22 +103,8 @@ h6 {
   gap: 1rem;
 }
 
-.interests-btns {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 4px;
-}
-
-.interest {
-  width: 5.5rem;
-  height: 2.6rem;
-  border-radius: 1.2rem;
-  border: solid 1px var(--neutrals-400);
-  background-color: var(--primary-300);
-  color: var(--neutrals-400);
-  font-family: var(--body-ff);
-  font-size: var(--body-size-md);
+.goal-container {
+  transform: translateY(1.6rem);
 }
 
 .goal {

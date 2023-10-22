@@ -12,10 +12,12 @@ header {
   justify-content: space-between;
 }
 
-.logo {
+.logo:link,
+.logo:visited {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 
 .logo-img {
@@ -43,6 +45,7 @@ header {
   background-color: transparent;
   border-radius: 50%;
   border: solid 1px var(--neutrals-300);
+  cursor: pointer !important;
 }
 
 .btns button:hover,
