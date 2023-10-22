@@ -4,18 +4,20 @@ import chat from "../images/comments.svg";
 import user from "../images/user.svg";
 import "./Navbar.css";
 
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <header>
-      <div className="logo">
+      <Link to={"/"} className="logo">
         <img src={shell} alt="Shell logo" className="logo-img" />
         <h4>zenfem</h4>
-      </div>
+      </Link>
       <div className="btns">
         <button>
-          <a href="/">
+          <Link to={"/"}>
             <img src={house} alt="Icon of a house" className="btn--icon" />
-          </a>
+          </Link>
         </button>
         <button>
           <a href="/">
@@ -23,9 +25,9 @@ const Navbar = () => {
           </a>
         </button>
         <button>
-          <a href="/">
+          <Link to={"/Profile"}>
             <img src={user} alt="Icon of a person" className="btn--icon" />
-          </a>
+          </Link>
         </button>
       </div>
     </header>

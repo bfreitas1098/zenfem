@@ -1,0 +1,9 @@
+.interest {
+  padding: 4px 8px;
+  border-radius: 1.2rem;
+  border: solid 1px var(--neutrals-400);
+  background-color: var(--primary-300);
+  color: var(--neutrals-400);
+  font-family: var(--body-ff);
+  font-size: var(--body-size-md);
+}

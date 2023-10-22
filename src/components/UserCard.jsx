@@ -43,6 +43,8 @@ import React, { useState, useEffect } from 'react';
 
 
 
+import InterestBtns from "./InterestBtns";
+
 const UserCard = (props) => {
   const [userData, setUserData] = useState({});
   const [loading, setLoading] = useState(true);

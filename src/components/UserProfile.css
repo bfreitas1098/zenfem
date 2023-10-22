@@ -1,0 +1,86 @@
+* {
+  font-size: 62.5%;
+}
+
+aside {
+  width: 38.2rem;
+  height: 50vw;
+  background-color: var(--neutrals-800);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.2rem;
+  padding: 8rem;
+}
+
+.profile--info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.profile--img {
+  width: 15rem;
+  height: 15rem;
+}
+
+.profile--user {
+  color: var(--neutrals-100);
+  font-size: var(--body-size-lg);
+}
+
+.profile--location {
+  color: var(--neutrals-300);
+  font-size: var(--body-size-sm);
+  transform: translateY(-4px);
+}
+
+.icon--edit {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.btn--edit-profile {
+  color: var(--neutrals-800);
+  font-size: var(--body-size-md);
+  font-family: var(--body-ff);
+  border-radius: 1.2rem;
+  border: solid 1px var(--neutrals-600);
+  background-color: var(--primary-200);
+  cursor: pointer !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 1.2rem;
+}
+
+.profile--bio,
+.profile--interests,
+.profile--curious {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.profile--interests,
+.profile--curious {
+  align-items: flex-start;
+}
+
+.profile--bio {
+  align-self: flex-start;
+  transform: translateX(2rem);
+}
+
+h6 {
+  color: var(--neutrals-100);
+  font-size: var(--h6-size);
+}
+
+.profile--bio p {
+  color: var(--neutrals-100);
+  font-size: var(--body-size-sm);
+}

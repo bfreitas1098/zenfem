@@ -49,4 +49,35 @@
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  line-height: var(--line-height);
+}
+
+h1,
+h2 {
+  font-family: var(--title-ff);
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-ff);
+}
+
+p {
+  font-family: var(--body-ff);
+}
+
+.interests-btns {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+}
+
+.ellipse {
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  background-color: var(--neutrals-400);
 }
