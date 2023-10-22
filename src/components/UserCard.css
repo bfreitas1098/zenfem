@@ -5,6 +5,7 @@
 .user-card {
   background-color: var(--neutrals-800);
   padding: 2.4rem;
+  padding-right: 0;
   width: 30.2rem;
   height: 28.9rem;
   border-radius: 8px;
@@ -35,7 +36,7 @@
   gap: 1.2rem;
 }
 
-.name {
+.profile-info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -43,13 +44,21 @@
   gap: 5px;
 }
 
-.full-name {
+.user-info {
   color: var(--neutrals-100);
   font-family: var(--body-ff);
   font-size: var(--body-size-lg);
 }
 
-.location {
+.location-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.location,
+.distance {
   color: var(--neutrals-300);
   font-family: var(--body-ff);
   font-size: var(--body-size-sm);
@@ -69,11 +78,16 @@
   padding: 4px 8px;
   font-family: var(--body-ff);
   font-size: var(--body-size-md);
+  cursor: pointer !important;
 }
 
 .btn--connect img {
   width: 1.6rem;
   height: 1.6rem;
+}
+
+.btn--connect:hover {
+  background-color: #264a73;
 }
 
 h6 {
@@ -83,8 +97,8 @@ h6 {
   font-weight: 400;
 }
 
-.interests-container,
-.goal-container {
+.goal-container,
+.interests-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -99,7 +113,7 @@ h6 {
   gap: 4px;
 }
 
-.interests-btns button {
+.interest {
   width: 5.5rem;
   height: 2.6rem;
   border-radius: 1.2rem;
@@ -114,4 +128,10 @@ h6 {
   color: var(--neutrals-100);
   font-family: var(--body-ff);
   font-size: var(--body-size-sm);
+}
+
+.bio-container,
+h6,
+.interests-btns {
+  overflow: hidden;
 }

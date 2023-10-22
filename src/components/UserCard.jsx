@@ -5,14 +5,16 @@ const UserCard = (props) => {
   return (
     <div className="user-card">
       <div className="bio-container">
-        <img
-          src={props.img}
-          alt="A woman with earphones on that are connected to her phone that she is holding and looking happily in the distance in an autumnal setting"
-        />
+        <img src={props.img} alt="A user" />
         <div className="name-connect-container">
-          <div className="name">
-            <p className="full-name">{props.name}</p>
-            <p className="location">Pasadena, California</p>
+          <div className="profile-info">
+            <p className="user-info">
+              {props.name}, {props.age}
+            </p>
+            <div className="location-container">
+              <p className="location">Pasadena, California</p>
+              <p className="distance">{props.distance}</p>
+            </div>
           </div>
           <button className="btn--connect">
             <img src={add} alt="Plus icon" />
@@ -23,9 +25,9 @@ const UserCard = (props) => {
       <div className="interests-container">
         <h6>Interests</h6>
         <div className="interests-btns">
-          <button>Sports</button>
-          <button>Nature</button>
-          <button>Knitting</button>
+          <button className="interest">Sports</button>
+          <button className="interest">Nature</button>
+          <button className="interest">Knitting</button>
         </div>
       </div>
       <div className="goal-container">
