@@ -24,7 +24,10 @@ The primary aim of Zenfem is to create a global community that defies typical li
 
 ## Screenshots
 
-[Insert more screenshots of the UI here, expanding on what was shown in the image]
+<img width="1424" alt="Screenshot 2023-10-22 at 11 45 18 PM" src="https://github.com/bfreitas1098/zenfem/assets/96152402/593fca49-bfa8-4087-9e63-efeaf1eb7041">
+<img width="1424" alt="Screenshot 2023-10-22 at 11 45 41 PM" src="https://github.com/bfreitas1098/zenfem/assets/96152402/799bf12e-d760-486c-8851-28b69de70f1d">
+<img width="1424" alt="Screenshot 2023-10-22 at 11 46 00 PM" src="https://github.com/bfreitas1098/zenfem/assets/96152402/6b547345-b9b1-4891-b927-585b30206ef1">
+<img width="1424" alt="Screenshot 2023-10-22 at 11 46 08 PM" src="https://github.com/bfreitas1098/zenfem/assets/96152402/a511d69c-4b8d-46ca-b373-ec1c71f4e4e7">
 
 ## Installation
 
