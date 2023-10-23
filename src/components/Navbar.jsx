@@ -9,13 +9,13 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <header>
-      <Link to={"/"} className="logo">
+      <Link to={"/Home"} className="logo">
         <img src={shell} alt="Shell logo" className="logo-img" />
         <h4>zenfem</h4>
       </Link>
       <div className="btns">
         <button>
-          <Link to={"/"}>
+          <Link to={"/Home"}>
             <img src={house} alt="Icon of a house" className="btn--icon" />
           </Link>
         </button>
@@ -25,7 +25,7 @@ const Navbar = () => {
           </a>
         </button>
         <button>
-          <Link to={"/Profile"}>
+          <Link to={"/CurrentProfile"}>
             <img src={user} alt="Icon of a person" className="btn--icon" />
           </Link>
         </button>
