@@ -12,12 +12,6 @@ import "./HomePage.css";
 import UserPin from "../components/UserPin";
 
 const HomePage = () => {
-  // const [username, setUsername] = useState("");
-
-  // const handleSearch = () => {
-  //   setUsername();
-  // };
-
   return (
     <>
       <Navbar />
@@ -25,8 +19,6 @@ const HomePage = () => {
         <form>
           <input
             type="text"
-            // onChange={handleSearch}
-            // value={username}
             placeholder="Search for Users"
             className="input--user-search"
           />

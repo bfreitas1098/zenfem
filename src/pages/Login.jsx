@@ -50,7 +50,7 @@ const Login = () => {
             <label>Password</label>
             <input type="password" />
           </div>
-          <Link to={"/"} className="btn--login">
+          <Link to={"/Home"} className="btn--login">
             Login
           </Link>
         </form>

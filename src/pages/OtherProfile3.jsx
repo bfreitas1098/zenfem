@@ -20,7 +20,7 @@ const OtherProfile3 = () => {
       <div className="profile">
         <UserProfile profileImg={user1} name={"Megan Johnson"} age={29} />
         <div className="profile-main">
-          <Link to={"/"}>
+          <Link to={"/Home"}>
             <button className="btn--back">Back to Map</button>
           </Link>
           <div className="map-container">

@@ -21,7 +21,7 @@ const CurrentProfile = () => {
         <UserProfile profileImg={user} name={"Evelyn Mill"} age={28} />
         <div className="profile-main">
           <div className="btns-container">
-            <Link to={"/Login"} className="login-link">
+            <Link to={"/"} className="login-link">
               <button className="btn--sign-out">
                 <img
                   src={signOut}
