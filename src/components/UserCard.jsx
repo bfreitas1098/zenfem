@@ -1,6 +1,7 @@
 import "./UserCard.css";
 import add from "../images/add.svg";
 
+import { Link } from "react-router-dom";
 import InterestBtns from "./InterestBtns";
 
 const UserCard = (props) => {
@@ -18,10 +19,12 @@ const UserCard = (props) => {
               <p className="distance">{props.distance}</p>
             </div>
           </div>
-          <button className="btn--connect">
-            <img src={add} alt="Plus icon" />
-            Connect
-          </button>
+          <Link to={props.profile} className="connect-link">
+            <button className="btn--connect">
+              <img src={add} alt="Plus icon" />
+              Connect
+            </button>
+          </Link>
         </div>
       </div>
       <div className="interests-container">

@@ -1,15 +1,16 @@
-import user from "../images/user-4.png";
 import edit from "../images/edit.svg";
 import InterestBtns from "./InterestBtns";
 
 import "./UserProfile.css";
 
-const UserProfile = () => {
+const UserProfile = (props) => {
   return (
     <aside>
       <div className="profile--info">
-        <img src={user} alt="A user" className="profile--img" />
-        <p className="profile--user">Evelyn Mill, 35</p>
+        <img src={props.profileImg} alt="A user" className="profile--img" />
+        <p className="profile--user">
+          {props.name}, {props.age}
+        </p>
         <p className="profile--location">Pasadena, California</p>
         <button className="btn--edit-profile">
           <img

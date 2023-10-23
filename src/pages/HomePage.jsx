@@ -53,30 +53,33 @@ const HomePage = () => {
               name={"Eva Cho"}
               age={25}
               distance={"0.1 mi"}
+              profile={"/OtherProfile1"}
             />
             <UserCard
               img={user2}
               name={"Helen Cho"}
               age={31}
               distance={"0.2 mi"}
+              profile={"/OtherProfile2"}
             />
             <UserCard
               img={user3}
               name={"Megan Johnson"}
               age={29}
               distance={"0.4 mi"}
+              profile={"/OtherProfile3"}
             />
           </div>
           <div className="map-container">
             <img src={map} alt="A zoomed in map of New York" className="map" />
             <div className="user-pin--1">
-              <UserPin user={user1} />
+              <UserPin user={user1} goal={"Swimming in Long Island Beach"} />
             </div>
             <div className="user-pin--2">
-              <UserPin user={user2} />
+              <UserPin user={user2} goal={"Swimming in Long Island Beach"} />
             </div>
             <div className="user-pin--3">
-              <UserPin user={user3} />
+              <UserPin user={user3} goal={"Swimming in Long Island Beach"} />
             </div>
           </div>
         </div>

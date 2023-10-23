@@ -1,0 +1,136 @@
+* {
+  font-size: 62.5%;
+}
+
+.login--container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 20rem; */
+  width: 100vw;
+  /* height: 55vw; */
+  background-color: var(--primary-300);
+}
+
+.login--form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4rem;
+  padding: 0 13.3rem;
+}
+
+.login--logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: "The Seasons Italic";
+  font-size: 4.7rem;
+  color: var(--neutrals-100);
+}
+
+.login--logo {
+  width: 18.5rem;
+  height: 14.6rem;
+  transform: translateY(-2rem);
+}
+
+h6 {
+  color: var(--neutrals-100);
+  font-family: var(--heading-ff);
+  font-size: var(--h6-size);
+  align-self: flex-start;
+}
+
+.login--form {
+  width: 41rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.2rem;
+}
+
+.login--email-input,
+.login--password-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.login--email-input label,
+.login--password-input label {
+  color: var(--neutrals-100);
+  font-family: var(--body-ff);
+  font-size: var(--body-size-sm);
+}
+
+.login--email-input input,
+.login--password-input input {
+  width: 41rem;
+  height: 4rem;
+  background-color: var(--neutrals-800);
+  border: solid 1px var(--neutrals-700);
+  border-radius: 1.2rem;
+  color: var(--neutrals-100);
+  font-size: var(--body-size-md);
+  font-family: var(--body-ff);
+  padding: 0 1rem;
+}
+
+.btn--login {
+  width: 100%;
+  /* height: 5rem; */
+  background-color: var(--primary-200);
+  border-radius: 1.2rem;
+  border: solid 1px var(--neutrals-600);
+  padding: 1.6rem 8px;
+  color: var(--neutrals-800);
+  font-family: var(--body-ff);
+  font-size: var(--body-size-md);
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.login--divider {
+  color: var(--neutrals-200);
+  font-family: var(--body-ff);
+  font-size: var(--body-size-md);
+}
+
+.login--passkey {
+  background-color: transparent;
+  color: var(--neutrals-300);
+  font-family: var(--body-ff);
+  font-size: var(--body-size-md);
+  border-radius: 1.2rem;
+  border: solid 1px var(--neutrals-100);
+  padding: 1.6rem 8px;
+  width: 41rem;
+  margin-top: -2.4rem;
+}
+
+.login--register {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  color: var(--neutrals-100);
+  font-family: var(--body-ff);
+  font-size: var(---body-size-md);
+  margin-top: -1rem;
+}
+
+.login--register span {
+  text-decoration: underline;
+}
+
+.login--img {
+  width: 70.8rem;
+}

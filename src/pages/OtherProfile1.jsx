@@ -1,49 +1,32 @@
 import Navbar from "../components/Navbar";
 import UserProfile from "../components/UserProfile";
-import signOut from "../images/sign-out.svg";
-import notebook from "../images/notebook.svg";
-import edit from "../images/edit-2.svg";
 import goal1 from "../images/goal-1.png";
 import goal2 from "../images/goal-2.png";
 import goal3 from "../images/goal-3.jpeg";
 import goal4 from "../images/goal-4.jpeg";
+import user1 from "../images/user-1.png";
+import user2 from "../images/user-2.png";
+import map from "../images/map.png";
 
-import "./Profile.css";
+import "./OtherProfile.css";
+import { Link } from "react-router-dom";
 import Goal from "../components/Goal";
+import UserPin from "../components/UserPin";
 
-const Profile = () => {
+const OtherProfile1 = () => {
   return (
     <div className="profile--page">
       <Navbar />
       <div className="profile">
-        <UserProfile />
+        <UserProfile profileImg={user1} name={"Eva Cho"} age={25} />
         <div className="profile-main">
-          <div className="btns-container">
-            <button className="btn--sign-out">
-              <img
-                src={signOut}
-                alt="Icon of a door and an arrow"
-                className="icon--sign-out"
-              />
-              Sign Out
-            </button>
-            <div className="goal-btns">
-              <button className="btn--create-goal">
-                <img
-                  src={notebook}
-                  alt="Icon of a notebook pad"
-                  className="icon--create-goal"
-                />
-                Create a Goal
-              </button>
-              <button className="btn--edit-goal">
-                <img
-                  src={edit}
-                  alt="An icon of a paintbrush and a paper"
-                  className="icon--edit-goal"
-                />
-                Edit an Existing Goal
-              </button>
+          <Link to={"/"}>
+            <button className="btn--back">Back to Map</button>
+          </Link>
+          <div className="map-container">
+            <img src={map} alt="Map of an area" className="profile-map" />
+            <div className="pin">
+              <UserPin user={user2} goal={"Book Discussion at BK Library"} />
             </div>
           </div>
           <div className="tabs-container">
@@ -91,4 +74,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default OtherProfile1;

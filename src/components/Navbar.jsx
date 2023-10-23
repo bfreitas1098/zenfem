@@ -25,7 +25,7 @@ const Navbar = () => {
           </a>
         </button>
         <button>
-          <Link to={"/Profile"}>
+          <Link to={"/CurrentProfile"}>
             <img src={user} alt="Icon of a person" className="btn--icon" />
           </Link>
         </button>
