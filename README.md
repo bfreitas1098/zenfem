@@ -15,7 +15,7 @@ In the post-COVID social climate, many challenges such as community fragmentatio
 ## Technologies
 
 - **React**: Provides a dynamic and interactive UI for our platform.
-- **SQL**: Facilitates the storage and retrieval of user data, ensuring scalability and robustness.
+- **Django and SQLite**: Facilitates the storage and retrieval of user data, ensuring scalability and robustness.
 - **Passage**: Ensures security and convenience for our users, enhancing the legitimacy and trustworthiness of our web app.
 
 ## Our Goal
