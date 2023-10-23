@@ -1,6 +1,19 @@
 import React from "react";
 import "./InterestBtns.css";
 
+
+import "./InterestBtns.css";
+
+const InterestBtns = (props) => {
+  return (
+    <>
+      <button className="interest">{props.interest}</button>
+    </>
+  );
+};
+
+export default InterestBtns;
+
 // const InterestBtns = (props) => {
 //   return (
 //     <div className="interests-btns">
@@ -16,13 +29,3 @@ import "./InterestBtns.css";
 // };
 
 // export default InterestBtns;
-
-const InterestBtns = (props) => {
-  return (
-    <>
-      <button className="interest">{props.interest}</button>
-    </>
-  );
-};
-
-export default InterestBtns;
