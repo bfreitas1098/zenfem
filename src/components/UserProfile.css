@@ -57,6 +57,11 @@ aside {
   padding: 8px 1.2rem;
 }
 
+.btn--edit-profile:hover,
+.btn--edit-profile:active {
+  background-color: #264a73;
+}
+
 .profile--bio,
 .profile--interests,
 .profile--curious {

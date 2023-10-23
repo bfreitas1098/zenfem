@@ -2,6 +2,7 @@ import logo from "../images/shell-logo.svg";
 import login from "../images/login.png";
 import "./Login.css";
 import { Link } from "react-router-dom";
+import "@passageidentity/passage-elements/passage-auth";
 
 const Login = () => {
   // const [username, setUsername] = useState("");
@@ -57,7 +58,11 @@ const Login = () => {
         <span className="login--divider">
           --------------- or ----------------
         </span>
-        <button className="login--passkey">Sign In with Passkey</button>
+        <div className="login--passkey">
+          <passage-auth app-id="uhW8zFCtIVRFm01hxvhC3Dvg"></passage-auth>
+          <script src="https://psg.so/web.js"></script>
+          {/* Sign In with Passkey */}
+        </div>
         <div className="login--register">
           Don't have an account?<span>Sign Up!</span>
         </div>

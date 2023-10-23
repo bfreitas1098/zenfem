@@ -18,7 +18,12 @@ const OtherProfile3 = () => {
     <div className="profile--page">
       <Navbar />
       <div className="profile">
-        <UserProfile profileImg={user1} name={"Megan Johnson"} age={29} />
+        <UserProfile
+          profileImg={user1}
+          name={"Megan Johnson"}
+          age={29}
+          display={{ display: "none" }}
+        />
         <div className="profile-main">
           <Link to={"/Home"}>
             <button className="btn--back">Back to Map</button>

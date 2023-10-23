@@ -8,7 +8,7 @@
   align-items: center;
   /* gap: 20rem; */
   width: 100vw;
-  /* height: 55vw; */
+  height: 90vw;
   background-color: var(--primary-300);
 }
 
@@ -19,6 +19,7 @@
   align-items: center;
   gap: 4rem;
   padding: 0 13.3rem;
+  padding-top: 6rem;
 }
 
 .login--logo-container {
@@ -99,6 +100,11 @@ h6 {
   text-decoration: none;
 }
 
+.btn--login:hover,
+.btn--login:active {
+  background-color: #264a73;
+}
+
 .login--divider {
   color: var(--neutrals-200);
   font-family: var(--body-ff);
@@ -106,13 +112,6 @@ h6 {
 }
 
 .login--passkey {
-  background-color: transparent;
-  color: var(--neutrals-300);
-  font-family: var(--body-ff);
-  font-size: var(--body-size-md);
-  border-radius: 1.2rem;
-  border: solid 1px var(--neutrals-100);
-  padding: 1.6rem 8px;
   width: 41rem;
   margin-top: -2.4rem;
 }
@@ -125,6 +124,7 @@ h6 {
   font-family: var(--body-ff);
   font-size: var(---body-size-md);
   margin-top: -1rem;
+  margin-bottom: 6rem;
 }
 
 .login--register span {
@@ -133,4 +133,8 @@ h6 {
 
 .login--img {
   width: 70.8rem;
+  height: 90vw;
+  /* margin-top: -6rem; */
+  object-fit: cover;
+  /* margin-top: -60rem; */
 }

@@ -12,7 +12,7 @@ const UserProfile = (props) => {
           {props.name}, {props.age}
         </p>
         <p className="profile--location">Pasadena, California</p>
-        <button className="btn--edit-profile">
+        <button className="btn--edit-profile" style={props.display}>
           <img
             src={edit}
             alt="Icon of a paper on a pencil"
