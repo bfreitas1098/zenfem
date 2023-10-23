@@ -1,5 +1,6 @@
 import logo from "../images/shell-logo.svg";
 import login from "../images/login.png";
+import line from "../images/line.svg";
 import "./Login.css";
 import { Link } from "react-router-dom";
 import "@passageidentity/passage-elements/passage-auth";
@@ -56,7 +57,9 @@ const Login = () => {
           </Link>
         </form>
         <span className="login--divider">
-          --------------- or ----------------
+          <img src={line} alt="Icon of a line" />
+          or
+          <img src={line} alt="Icon of a line" />
         </span>
         <div className="login--passkey">
           <passage-auth app-id="uhW8zFCtIVRFm01hxvhC3Dvg"></passage-auth>
