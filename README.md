@@ -60,9 +60,6 @@ Contributions are welcome! Please read our [contribution guide](link_to_contribu
 
 For any queries, please reach out to [support@zenfem.com](mailto:support@zenfem.com).
 
----
-
-Remember to replace placeholders with the actual links you have for your project!
 
 
 
