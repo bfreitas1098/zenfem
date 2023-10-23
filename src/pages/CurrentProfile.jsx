@@ -7,26 +7,30 @@ import goal1 from "../images/goal-1.png";
 import goal2 from "../images/goal-2.png";
 import goal3 from "../images/goal-3.jpeg";
 import goal4 from "../images/goal-4.jpeg";
+import user from "../images/user-4.png";
 
-import "./Profile.css";
+import "./CurrentProfile.css";
 import Goal from "../components/Goal";
+import { Link } from "react-router-dom";
 
-const Profile = () => {
+const CurrentProfile = () => {
   return (
     <div className="profile--page">
       <Navbar />
       <div className="profile">
-        <UserProfile />
+        <UserProfile profileImg={user} name={"Evelyn Mill"} age={28} />
         <div className="profile-main">
           <div className="btns-container">
-            <button className="btn--sign-out">
-              <img
-                src={signOut}
-                alt="Icon of a door and an arrow"
-                className="icon--sign-out"
-              />
-              Sign Out
-            </button>
+            <Link to={"/"} className="login-link">
+              <button className="btn--sign-out">
+                <img
+                  src={signOut}
+                  alt="Icon of a door and an arrow"
+                  className="icon--sign-out"
+                />
+                Sign Out
+              </button>
+            </Link>
             <div className="goal-btns">
               <button className="btn--create-goal">
                 <img
@@ -91,4 +95,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default CurrentProfile;

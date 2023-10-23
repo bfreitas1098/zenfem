@@ -64,7 +64,6 @@
 }
 
 .btn--connect {
-  color: var(--neutrals-800);
   background-color: var(--primary-200);
   border-radius: 1.2rem;
   border: solid 1px var(--neutrals-600);
@@ -75,6 +74,11 @@
   padding: 4px 8px;
   font-family: var(--body-ff);
   font-size: var(--body-size-md);
+  color: var(--neutrals-800);
+}
+
+.connect-link {
+  text-decoration: none;
   cursor: pointer !important;
 }
 

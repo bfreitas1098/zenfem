@@ -50,6 +50,11 @@
   opacity: 80%;
 }
 
+.login-link {
+  text-decoration: none;
+  cursor: pointer !important;
+}
+
 .goal-btns {
   display: flex;
   align-items: center;
