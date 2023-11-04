@@ -6,18 +6,18 @@ import { Link } from "react-router-dom";
 import "@passageidentity/passage-elements/passage-auth";
 
 const Login = () => {
-  // const [username, setUsername] = useState("");
-  // const [password, setPassword] = useState("");
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   // Handle login logic here
-  //   console.log("Username:", username, "Password:", password);
-  // };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Handle login logic here
+    console.log("Username:", username, "Password:", password);
+  };
 
   return (
     <div className="login--container">
-      {/* <h2>Login</h2>
+      <h2>Login</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <label>Username: </label>
@@ -36,7 +36,7 @@ const Login = () => {
           />
         </div>
         <button type="submit">Login</button>
-      </form> */}
+      </form>
       <div className="login--form-container">
         <div className="login--logo-container">
           <h1>zenfem</h1>
@@ -61,10 +61,10 @@ const Login = () => {
           or
           <img src={line} alt="Icon of a line" />
         </span>
+        {/* Sign In with Passkey */}
         <div className="login--passkey">
           <passage-auth app-id="uhW8zFCtIVRFm01hxvhC3Dvg"></passage-auth>
           <script src="https://psg.so/web.js"></script>
-          {/* Sign In with Passkey */}
         </div>
         <div className="login--register">
           Don't have an account?<span>Sign Up!</span>
