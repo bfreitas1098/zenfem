@@ -7,6 +7,7 @@ import OtherProfile1 from "./pages/OtherProfile1";
 import OtherProfile2 from "./pages/OtherProfile2";
 import OtherProfile3 from "./pages/OtherProfile3";
 
+
 function App() {
   return (
     <div className="App">
